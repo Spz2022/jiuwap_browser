@@ -1,0 +1,96 @@
+<?php
+/*
+ *
+ *	设置文件
+ *
+ *	2011-8-31 @ jiuwap.cn
+ *
+ */
+
+//MYSQL服务地址
+$b_set['db']['server'] = '[server]';
+
+//用户名
+$b_set['db']['user'] = '[user]';
+
+//密码
+$b_set['db']['pass'] = '[pass]';
+
+//数据库名
+$b_set['db']['table'] = '[table]';
+
+#浏览器名字
+$b_set['webtitle'] = '[webtitle]';
+
+#网盘名字
+$b_set['disktitle'] = '[disktitle]';
+
+#备案号
+$b_set['icp'] = '[icp]';
+
+#中转上传最大文件大小,单位B
+$b_set['tupload'] = '[tupload]';
+
+#中转下载最大文件大小,单位B
+$b_set['tdown'] = '[tdown]';
+
+#邮件发送最大文件大小,单位B
+$b_set['tmail'] = '[tmail]';
+
+#网盘本地上传最大文件大小,单位B
+$b_set['dlocal'] = '[dlocal]';
+
+#网盘远程上传最大文件大小,单位B
+$b_set['dhttp'] = '[dhttp]';
+
+#网盘中转上传最大文件大小,单位B
+$b_set['thttp'] = '[thttp]';
+
+#网盘初始大小,单位B
+$b_set['dinit'] = '[dinit]';
+
+#网盘永久存储目录(如果修改,请注意转移用户文件),末尾必须加/
+$b_set['dfforever'] = [dfforever];
+
+#网盘临时存储目录(您可以随时删除这些文件),末尾必须加/
+$b_set['dftemp'] = [dftemp];
+
+#临时中转下载目录(文件),可随时删除,末尾必须加/
+$b_set['rfile'] = [rfile];
+
+#临时中转下载目录(文件),可随时删除,末尾必须加/
+$b_set['rini'] = [rini];
+
+#用户缓存目录,末尾必须加/
+$b_set['utemp'] = [utemp];
+
+#密钥
+$b_set['key1'] = '[key1]';
+$b_set['key2'] = '[key2]';
+$b_set['key3'] = '[key3]';
+$b_set['key4'] = '[key4]';
+
+//上述4个目录和4个密钥请严格保密,否则可能威胁服务器安全！！
+
+#压流页面标题前缀提示,类似“[压流]手机腾讯网”
+$b_set['title_str'] = '[title_str]'; //可以为空
+
+
+//邮箱SMTP
+$b_set['mail']['smtp'] = '[mail_smtp]';
+
+//用户名
+$b_set['mail']['user'] = '[mail_user]';
+
+//密码
+$b_set['mail']['pass'] = '[mail_pass]';
+
+//发信人地址
+$b_set['mail']['from'] = '[mail_from]';
+
+//超级密码
+$b_set['rootpassword'] = '[rootpassword]';
+
+/*
+[tips]
+*/
